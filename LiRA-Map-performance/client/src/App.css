@@ -1,0 +1,53 @@
+
+
+:root {
+  --background: #f0ecec;
+
+  --highlight-background: rgba(0, 0, 255, 0.1);
+  --highlight-text: rgb(55, 180, 255);
+
+  --orange-background: rgba(218, 120, 55, 0.1);
+  --orange-text: rgb(218, 120, 55);
+
+  --grey: rgba(100, 100, 100, 0.5);
+  --lightgrey: rgba(130, 130, 130, 0.5);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background-color: var(--background);
+  height: 100vh;
+  color: white;
+  overflow: hidden;
+
+}
+
+
+
+.btn {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 12px 0px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.btn-checked {
+  /*background: var(--highlight-background) !important;
+  color: var(--highlight-text);*/
+  color: rgb(113, 33, 33);
+  background: rgb(224, 222, 221);
+}
+

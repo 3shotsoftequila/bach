@@ -1,0 +1,30 @@
+[
+    {
+        "rendererIndex": 0,
+        "query": "/trip_measurement",
+        "queryMeasurement": "track.pos",
+        "name": "Track Pos",
+        "defaultColor": "#ef0000",
+        "size": 1,
+        "value": "number"
+    },
+    {
+        "rendererIndex": 2,
+        "query": "/trip_measurement",
+        "queryMeasurement": "obd.acc_trans",
+        "name": "Trans Acc",
+        "defaultColor": "#0000FF",
+        "size": 1,
+        "value": "number"
+    },
+    {
+        "rendererIndex": 3,
+        "query": "/trip_measurement",
+        "queryMeasurement": "obd.bat",
+        "name": "Speed",
+        "defaultColor": "#0f0f0f",    
+        "size": 1,
+        "value": "number"
+    }
+
+]

@@ -1,0 +1,35 @@
+
+
+.sum {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  
+  }
+  
+  .item {
+    display: flex;
+  
+  }
+  
+  .ul li {
+    margin: 0 1rem;  
+  }
+  
+  .item ul {
+    display: flex;
+  
+  
+  }
+  
+  
+  
+  .dashboard,
+  .settings,
+  .notifications {
+    text-decoration: none;
+    color: aliceblue;
+  }
+
+  
